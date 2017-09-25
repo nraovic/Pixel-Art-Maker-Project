@@ -29,11 +29,11 @@ function makeGrid(evt) {
                 const color = document.getElementById('colorPicker').value;
                 //set it as a background color of the cell
                 cell.style.backgroundColor = color;
-            })
+            });
             j++;
         }
         i++;
     }
     //prevent refreshing the page and clearing the canvas
     evt.preventDefault();
-};
+}
